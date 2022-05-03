@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    padding: 180px 50px;
+    background: linear-gradient(30deg, #000000bf, #000000bf), url(./assets/avif/photo-1549608276-5786777e6587.avif);
+    color: #dfd5d5;
+    background-size: cover;
+    background-position: right;
+    background-position-y: 30%;
+}
+
+
+
+p.pudim {
+    color: rgba(109, 12, 194, 0.705);
+}
+
+p {
+    color: red;
+}
+.content {margin-top: -160px;
+    width: 80%;
+    background-color: #fff;
+}}
