@@ -1,23 +1,53 @@
 header{
     text-align: center;
     padding: 180px 50px;
-    background: linear-gradient(30deg, #000000bf, #000000bf), url(./assets/avif/photo-1549608276-5786777e6587.avif);
+    background: linear-gradient(30deg, #000000bf, #000000bf), url("./assets/avif/photo-1549608276-5786777e6587.avif");
     color: #dfd5d5;
     background-size: cover;
     background-position: right;
-    background-position-y: 30%;
+    background-position-y: 35%;
+    width: 100%;
 }
 
 
 
 p.pudim {
-    color: rgba(109, 12, 194, 0.705);
+    color: rgba(29, 114, 12, 0.678);
 }
 
 p {
-    color: red;
+    color: rgb(26, 21, 23);
 }
 .content {margin-top: -160px;
     width: 80%;
     background-color: #fff;
-}}
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px #0a0808;
+    color: #2e2c2c;
+}
+
+
+
+.container {    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.images{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.images img{
+    max-width: calc(100% / 2);
+}
+@media (max-width: 500px){
+.images img{
+    width: 100%;
+    max-width: 100%;
+}
+.images {
+    flex-wrap: wrap;
+}
+}
